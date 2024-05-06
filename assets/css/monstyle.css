@@ -1,0 +1,122 @@
+html {
+	font-family: Helvetica, Arial, sans-serif;
+	font-size: 100%;
+	background: #3498db;
+}
+
+#documentation {
+    display: none; /* Cacher la documentation par défaut */
+}
+
+#documentation {
+		background-color: #f9f9f9;
+		border: 1px solid #999; /* Bordure de 1 pixel de large, couleur grise */
+		padding: 10px; /* Réduire le remplissage autour du contenu */
+		margin: 0 auto; /* Centrage horizontal */
+		max-width: 800px; /* Optionnel : limitez la largeur de la documentation */
+		text-align: left; /* Alignement du texte à gauche */
+	}
+	
+
+#documentation h2 {
+    font-size: 20px; /* Taille de police plus petite pour les titres */
+    color: #333;
+}
+
+#documentation p {
+    font-size: 14px; /* Taille de police plus petite pour les paragraphes */
+    color: #666;
+}
+
+#documentation ul {
+    list-style-type: disc;
+    margin-left: 20px;
+}
+
+#documentation li {
+    margin-bottom: 10px;
+    font-size: 14px; /* Taille de police plus petite pour les éléments de liste */
+}
+
+
+.mylabel {
+	background-color: #f1c40f;
+	font-family: arial,helvetica,sans-serif;
+	font-variant: small-caps;
+	font-size: 90%;
+	padding: 2px;
+	border-right: 1px solid #f1c40f;
+	border-bottom: 1px solid #f1c40f;
+}
+
+.infolog {
+	text-align:center;
+	border: 2pt solid #f1c40f;
+	padding: 1pt;
+	margin-left: 0px;
+	margin-right: 0px;
+	background: #f1c40f;
+}
+
+.errorlog {
+	text-align:center;
+	border: 2pt solid rgb(255, 0, 0);
+	padding: 2pt;
+	margin-left: 0px;
+	margin-right: 0px;
+	background-color: rgb(255, 96, 96);
+}
+
+#page  {
+	position: relative;
+	min-height: 100%;
+}
+
+#container {
+	background-color: white;
+	border: 3px solid black;
+	padding: 2px;
+	padding-bottom: 5%; 
+	width: 80%;
+	margin-left:10%;
+	height: 100%;
+	min-height: 100%;
+	position: relative;
+}
+
+#page-wrapper {
+	width: 600px;
+	background: #cee1fd;
+	padding: 1em;
+	margin: 1em auto;
+	border-top: 5px solid #69c773;
+	box-shadow: 0 2px 10px rgba(0,0,0,0.8);
+}
+
+#Global {
+	margin-right: auto; 
+	margin-left: auto; 
+	width: 80%; 
+	border: 3px; 
+	display:table;
+}
+#Global #fileDisplayArea {
+	float:left;
+	width:48%;
+	background: #FFF;
+	font-size:0.6em;
+	height:200px;
+	overflow:scroll;
+}
+#Global #page-analysis {
+	margin-left:52%;
+	background: #FFF;
+	height:200px;
+	overflow:scroll;
+}
+
+h1 {
+	margin-top: 0;
+	color:black;
+}
+
